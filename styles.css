@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Box sizing border box en vez de content box, 
+    hace que al agregar border y padding 
+    no aumente el tamaño de la caja */
+}
+
