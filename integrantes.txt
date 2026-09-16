@@ -1,6 +1,0 @@
-Bruno Kupferberg
-Rodrigo Pinnola
-Pipon3
-
-Descargar imagenes, no usar links.
-Utilizar W3C para validar el HTML y CSS.

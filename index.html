@@ -3,13 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <title>Naughton's eShop</title>
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header id="inicio">
+        <h1 class="marca">Naughton's eShop</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca-de">Acerca De</a></li>
+                <li><a href="#contactanos">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <img src="img/ocarina_remake_release_date.jpg.webp" alt="Banner de The Legend of Zelda: Ocarina of Time con Link en el bosque">
+        </div>
+        <section class="productos">
+            <h2 class="titulo-section">Productos disponibles</h2>
+            <div class="cards">
+                <article class="card">
+                    <img src="img/Onimusha-Way-of-the-Sword-NSW2-600x600.jpg" alt="Portada de Onimusha: Way of the Sword para Nintendo Switch 2">
+                    <p class="card-cat">Juego SW2</p>
+                    <p class="card-price">$119.999</p>
+                    <h3 class="card-desc">Onimusha Way of the Sword SW2</h3>
+                    <a class="enlace-trailer" href="https://www.youtube.com/watch?v=Gbmd6YFm5oU" target="_blank" rel="noopener noreferrer">Ver tráiler en YouTube</a>
+                    <button class="agregar-carrito"><img src="img/cart-plus-svgrepo-com.svg" alt="Agregar Onimusha: Way of the Sword al carrito"></button>
+                </article>
+                <article class="card">
+                    <img src="img/The-Legend-of-Zelda-Tears-of-the-Kingdom-NSW2-600x600.jpg" alt="Portada de The Legend of Zelda: Tears of the Kingdom para Nintendo Switch 2">
+                    <p class="card-cat">Juego SW2</p>
+                    <p class="card-price">$149.999</p>
+                    <h3 class="card-desc">The Legend of Zelda: Tears of the Kingdom SW2</h3>
+                    <a class="enlace-trailer" href="https://www.youtube.com/watch?v=uHGShqcAHlQ" target="_blank" rel="noopener noreferrer">Ver tráiler en YouTube</a>
+                    <button class="agregar-carrito"><img src="img/cart-plus-svgrepo-com.svg" alt="Agregar The Legend of Zelda: Tears of the Kingdom al carrito"></button>
+                </article>
+                <article class="card">
+                    <img src="img/Grand-Theft-Auto-VI-PS5-600x600.jpg" alt="Portada de Grand Theft Auto VI para PlayStation 5">
+                    <p class="card-cat">Preventas</p>
+                    <p class="card-price">$699.999</p>
+                    <h3 class="card-desc">GTA VI PS5</h3>
+                    <a class="enlace-trailer" href="https://www.youtube.com/watch?v=QdBZY2fkU-0" target="_blank" rel="noopener noreferrer">Ver tráiler en YouTube</a>
+                    <button class="agregar-carrito"><img src="img/cart-plus-svgrepo-com.svg" alt="Agregar Grand Theft Auto VI al carrito"></button>
+                </article>
+                <article class="card">
+                    <img src="img/Grand-Theft-Auto-VI-PS5-600x600.jpg" alt="Portada de Grand Theft Auto VI para PlayStation 5, usada para la edición Deluxe">
+                    <p class="card-cat">Preventas</p>
+                    <p class="card-price">$899.999</p>
+                    <h3 class="card-desc">GTA VI Deluxe Edition PS5</h3>
+                    <a class="enlace-trailer" href="https://www.youtube.com/watch?v=QdBZY2fkU-0" target="_blank" rel="noopener noreferrer">Ver tráiler en YouTube</a>
+                    <button class="agregar-carrito"><img src="img/cart-plus-svgrepo-com.svg" alt="Agregar Grand Theft Auto VI Deluxe Edition al carrito"></button>
+                </article>
+            </div>
+        </section>
+        <div class="info-empresa">
+            <section id="acerca-de">
+            <h2>Acerca de</h2>
+            <p>Naughton's eShop es una empresa familiar con raices irlandesas, fundada en 1901</p>
+            </section>
+            <section id="contactanos">
+                <h2>Contactanos</h2>
+                <p>Podes contactarnos por email a: <a href="mailto:naughton@eshop.com">naughton@eshop.com</a></p>
+            </section>
+        </div>
+        
+    </main>
+    <footer>
+        <div class="redes-sociales">
+            <!-- Perfiles ficticios para el trabajo práctico; no son cuentas verificadas. -->
+            <a href="https://www.instagram.com/naughtons.eshop.demo/" target="_blank" rel="noopener noreferrer" title="Perfil ficticio de ejemplo">Instagram</a>
+            <a href="https://www.facebook.com/naughtons.eshop.demo/" target="_blank" rel="noopener noreferrer" title="Perfil ficticio de ejemplo">Facebook</a>
+        </div>
+        <p>© Naughton eShop - 2026</p>
+        <p>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img class="validacion-css" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="¡CSS Válido!">
+            </a>
+        </p>
+        <a class="volver-arriba" href="#inicio">↑ Volver arriba</a>
+    </footer>
     
 </body>
 </html>
